@@ -1,0 +1,1337 @@
+/* адаптивы начинаются здесь */
+/*  {
+  .body {
+    width: 100%;
+  }
+} */
+ {
+  /* адаптив текста первой части начинается здесь */
+  /* .crazy {
+    left: 1029px;
+    top: 153px;
+  }
+  .madhouse {
+    left: 1529px;
+    top: 293px;
+  }
+  .sculpt {
+    left: 40px;
+    top: 748px;
+  }
+  .what {
+    font-size: 120%;
+  }
+  .data_one {
+    left: 553px;
+    top: 1436px;
+  }
+  /* адптив картинок первой части начинается здесь */
+  .garland {
+    width: 34%;
+  }
+  .orange {
+    width: 12%;
+  }
+  .sweet_home {
+    width: 20%;
+    left: 429px;
+    top: 221px;
+  }
+  .ball {
+    width: 23%;
+  }
+  .little_sock {
+    width: 18%;
+  }
+  .snowman {
+    width:58%;
+    left: 256px;
+    top: 670px;
+  }
+  .tree {
+    width: 32%;
+  }
+  .spiral {
+    width: 20%;
+  }
+  .house {
+    width: 17%;
+  }
+  .orange_down {
+    width: 13%;
+  }
+  .glassball {
+    width: 18%;
+    left: 810px;
+  }
+  .bells {
+    width: 23%;
+    left: 1127px;
+    top: 257px;
+  }
+  .sock {
+    width: 22%;
+  }
+  .star {
+    width: 27%;
+    left: 1157px;
+  }
+  .candy {
+    width: 23%;
+  }
+  /* адаптивы текста второй части */
+  .pick {
+    top: 2500px;
+  }
+  /* адаптивы картинов второй части */
+  .garland_full {
+    width: 30%;
+  }
+  .window {
+    width: 37%;
+    left: 134px;
+    top: 2295px;
+  }
+  .mouse {
+    width: 34%;
+  }
+  .swe_house {
+    width: 25%;
+  }
+  .orange_two {
+    width: 13%;
+    left: 1077px;
+  }
+  .wdm {
+    width: 43%;
+    left: 715px;
+  }
+  .white_three {
+    width: 34%;
+  }
+  .mouses {
+    width: 33%;
+  }
+  .purple_star {
+    width: 30%;
+    left: 1278px;
+    top: 3827px;
+  }
+  .iny {
+    width: 32%;
+  }
+  .circle_window {
+    width: 27%;
+    left: 1001px;
+    top: 4208px;
+  }
+  /* адаптивы текстов последней части */
+  .december {
+    font-size: 200%;
+  }
+  .data_two {
+    font-size: 300%;
+  }
+  /* адаптивы картинок последней части */
+  .little_snow {
+    top: 5321px;
+  }
+  .white_tree {
+    width: 33%;
+  }
+  .snow {
+    width: 55%;
+    left: 23px;
+    top: 4600px;
+  }
+  .staron {
+    width: 30%;
+  }
+  .cand {
+    width: 25%;
+  }
+  .purp {
+    width: 15%;
+    left: 939px;
+    top: 5110px;
+  }
+  .blls {
+    width: 30%;
+    left: 770px;
+    top: 5098px;
+  }
+  .orng {
+    width: 15%;
+  }
+  .yellow_mouse {
+    width: 32%;
+    left: 745px;
+    top: 5436px;
+  }
+  .red_toy {
+    width: 25%;
+  }
+  .sck {
+    width: 30%;
+    left: 209px;
+    top: 5680px;
+  }
+  .green_mouse {
+    width: 30%;
+    left: 548px;
+    top: 5794px;
+  }
+  .shu {
+    width: 22%;
+  }
+  .red {
+    width: 35%;
+  } */
+
+  /* анимаця адаптивов первой части */
+  @keyframes sweet_home {
+    0% {left:429px; top:-279px;}
+    20% {left:429px; top:-179px;}
+    40% {left:429px; top:-79px;}
+    60% {left:429px; top:21px;}
+    80% {left:429px; top:121px;}
+    100% {left:429px; top:221px;}
+  }
+  @keyframes glassball {
+    0% {left:810px; top:-121px;}
+    20% {left:810px; top:-31px;}
+    40% {left:810px; top:59px;}
+    60% {left:810px; top:152px;}
+    80% {left:810px; top:242px;}
+    100% {left:810px; top:332px;}
+  }
+  @keyframes bells {
+    0% {left:1127px; top:-93px;}
+    20% {left:1127px; top:-23px;}
+    40% {left:1127px; top:47px;}
+    60% {left:1127px; top:117px;}
+    80% {left:1127px; top:187px;}
+    100% {left:1127px; top:257px;}
+  }
+  @keyframes star {
+    0% {left:1157px; top:240px;}
+    20% {left:1157px; top:340px;}
+    40% {left:1157px; top:440px;}
+    60% {left:1157px; top:540px;}
+    80% {left:1157px; top:640px;}
+    100% {left:1157px; top:740px;}
+  }
+  @keyframes snowman {
+    0% {left:256px; top:-80px;}
+    20% {left:256px; top:70px;}
+    40% {left:256px; top:220px;}
+    60% {left:256px; top:370px;}
+    80% {left:256px; top:520px;}
+    100% {left:256px; top:670px;}
+  }
+  /* анимация картинок второй части */
+  @keyframes window {
+    0% {left:134px; top:-205px;}
+    20% {left:134px; top:295px;}
+    40% {left:134px; top:795px;}
+    60% {left:134px; top:1295px;}
+    80% {left:134px; top:1795px;}
+    100% {left:134px; top:2295px;}
+  }
+  @keyframes orange_two {
+    0% {left:1077px; top:-115px;}
+    20% {left:1077px; top:485px;}
+    40% {left:1077px; top:1085px;}
+    60% {left:1077px; top:1685px;}
+    80% {left:1077px; top:2285px;}
+    100% {left:1077px; top:2885px;}
+  }
+  @keyframes wdm {
+    0% {left:715px; top:-51px;}
+    20% {left:715px; top:649px;}
+    40% {left:715px; top:1349px;}
+    60% {left:715px; top:2049px;}
+    80% {left:715px; top:2749px;}
+    100% {left:715px; top:3449px;}
+  }
+  @keyframes purple_star {
+    0% {left:1278px; top:-136px;}
+    20% {left:1278px; top:664px;}
+    40% {left:1278px; top:1464px;}
+    60% {left:1278px; top:2264px;}
+    80% {left:1278px; top:3064px;}
+    100% {left:1278px; top:3827px;}
+  }
+  @keyframes circle_window {
+    0% {left:1001px; top:205px;}
+    20% {left:1001px; top:1005px;}
+    40% {left:1001px; top:1805px;}
+    60% {left:1001px; top:2605px;}
+    80% {left:1001px; top:3405px;}
+    100% {left:1001px; top:4208px;}
+  }
+  /* анимация картинок последней части */
+  @keyframes snow {
+    0% {left:23px; top:2100px;}
+    20% {left:23px; top:2600px;}
+    40% {left:23px; top:3100px;}
+    60% {left:23px; top:3600px;}
+    80% {left:23px; top:4100px;}
+    100% {left:23px; top:4600px;}
+  }
+  @keyframes purp {
+    0% {left:939px; top:2610px;}
+    20% {left:939px; top:3110px;}
+    40% {left:939px; top:3610px;}
+    60% {left:939px; top:4110px;}
+    80% {left:939px; top:4610px;}
+    100% {left:939px; top:5110px;}
+  }
+  @keyframes blls {
+    0% {left:770px; top:2598px;}
+    20% {left:770px; top:3098px;}
+    40% {left:770px; top:3598px;}
+    60% {left:770px; top:4098px;}
+    80% {left:770px; top:4598px;}
+    100% {left:770px; top:5098px;}
+  }
+  @keyframes yellow_mouse {
+    0% {left:745px; top:2436px;}
+    20% {left:745px; top:3036px;}
+    40% {left:745px; top:3636px;}
+    60% {left:745px; top:4236px;}
+    80% {left:745px; top:4836px;}
+    100% {left:745px; top:5436px;}
+  }
+  @keyframes sck {
+    0% {left:209px; top:3180px;}
+    20% {left:209px; top:3680px;}
+    40% {left:209px; top:4180px;}
+    60% {left:209px; top:4680px;}
+    80% {left:209px; top:5180px;}
+    100% {left:209px; top:5680px;}
+  }
+  @keyframes green_mouse {
+    0% {left:548px; top:2794px;}
+    20% {left:548px; top:3394px;}
+    40% {left:548px; top:3994px;}
+    60% {left:548px; top:4594px;}
+    80% {left:548px; top:5194px;}
+    100% {left:548px; top:5794px;}
+  }
+} */
+/* адаптивы 1024х1273 */
+/* @media (min-width: 1024px) and (max-width: 1280px) {
+  /* адаптив текста первой части начинается здесь */
+  .crazy {
+    left: 1029px;
+    top: 153px;
+  }
+  .new {
+    left: 502px;
+    top: 161px;
+  }
+  .madhouse {
+    left: 1477px;
+    top: 293px;
+  }
+  .sculpt {
+    left: 40px;
+    top: 980px;
+  }
+  .make {
+    left: 47px;
+    top: 2228px;
+  }
+  .pick {
+    top: 2500px;
+  }
+  .what {
+    font-size: 120%;
+    top: 1294px;
+  }
+  .data_one {
+    left: 553px;
+    top: 1436px;
+  }
+  /* адптив картинок первой части начинается здесь */
+  .garland {
+    width: 44%;
+  }
+  .orange {
+    width: 20%;
+  }
+  .sweet_home {
+    width: 30%;
+    left: 429px;
+    top: 221px;
+  }
+  .ball {
+    width: 33%;
+  }
+  .little_sock {
+    width: 28%;
+  }
+  .snowman {
+    width:88%;
+    left: 150px;
+    top: 670px;
+  }
+  .tree {
+    width: 42%;
+    top: 1600px;
+  }
+  .spiral {
+    width: 30%;
+  }
+  .house {
+    width: 27%;
+  }
+  .orange_down {
+    width: 23%;
+  }
+  .glassball {
+    width: 28%;
+    left: 810px;
+  }
+  .bells {
+    width: 33%;
+    left: 1127px;
+    top: 257px;
+  }
+  .sock {
+    width: 32%;
+  }
+  .star {
+    width: 42%;
+    left: 1157px;
+  }
+  .candy {
+    width: 33%;
+  }
+  /* адаптивы текста второй части */
+  /* адаптивы картинов второй части */
+  .garland_full {
+    width: 35%;
+  }
+  .window {
+    width: 40%;
+    left: 134px;
+    top: 2295px;
+  }
+  .mouse {
+    width: 39%;
+  }
+  .swe_house {
+    width: 30%;
+  }
+  .orange_two {
+    width: 18%;
+    left: 1077px;
+  }
+  .wdm {
+    width: 48%;
+    left: 715px;
+  }
+  .white_three {
+    width: 39%;
+  }
+  .mouses {
+    width: 38%;
+  }
+  .purple_star {
+    width: 35%;
+    left: 1278px;
+    top: 3827px;
+  }
+  .iny {
+    width: 37%;
+  }
+  .circle_window {
+    width: 32%;
+    left: 1001px;
+    top: 4208px;
+  }
+  /* адаптивы текстов последней части */
+  .december {
+    font-size: 200%;
+  }
+  .data_two {
+    font-size: 300%;
+  }
+  /* адаптивы картинок последней части */
+  .little_snow {
+    top: 5321px;
+  }
+  .white_tree {
+    width: 38%;
+  }
+  .snow {
+    width: 60%;
+    left: 23px;
+    top: 4600px;
+  }
+  .staron {
+    width: 35%;
+  }
+  .cand {
+    width: 30%;
+  }
+  .purp {
+    width: 20%;
+    left: 939px;
+    top: 5110px;
+  }
+  .blls {
+    width: 35%;
+    left: 770px;
+    top: 5098px;
+  }
+  .orng {
+    width: 20%;
+  }
+  .yellow_mouse {
+    width: 37%;
+    left: 745px;
+    top: 5436px;
+  }
+  .red_toy {
+    width: 30%;
+  }
+  .sck {
+    width: 35%;
+    left: 209px;
+    top: 5680px;
+  }
+  .green_mouse {
+    width: 35%;
+    left: 548px;
+    top: 5794px;
+  }
+  .shu {
+    width: 27%;
+  }
+  .red {
+    width: 40%;
+  }
+
+  /* анимаця адаптивов первой части */
+  @keyframes sweet_home {
+    0% {left:429px; top:-279px;}
+    20% {left:429px; top:-179px;}
+    40% {left:429px; top:-79px;}
+    60% {left:429px; top:21px;}
+    80% {left:429px; top:121px;}
+    100% {left:429px; top:221px;}
+  }
+  @keyframes glassball {
+    0% {left:810px; top:-121px;}
+    20% {left:810px; top:-31px;}
+    40% {left:810px; top:59px;}
+    60% {left:810px; top:152px;}
+    80% {left:810px; top:242px;}
+    100% {left:810px; top:332px;}
+  }
+  @keyframes bells {
+    0% {left:1127px; top:-93px;}
+    20% {left:1127px; top:-23px;}
+    40% {left:1127px; top:47px;}
+    60% {left:1127px; top:117px;}
+    80% {left:1127px; top:187px;}
+    100% {left:1127px; top:257px;}
+  }
+  @keyframes star {
+    0% {left:1157px; top:240px;}
+    20% {left:1157px; top:340px;}
+    40% {left:1157px; top:440px;}
+    60% {left:1157px; top:540px;}
+    80% {left:1157px; top:640px;}
+    100% {left:1157px; top:740px;}
+  }
+  @keyframes snowman {
+    0% {left:150px; top:-80px;}
+    20% {left:150px; top:70px;}
+    40% {left:150px; top:220px;}
+    60% {left:150px; top:370px;}
+    80% {left:150px; top:520px;}
+    100% {left:150px; top:670px;}
+  }
+  @keyframes tree {
+    0% {left:87px; top:-400px;}
+    20% {left:87px; top:0px;}
+    40% {left:87px; top:400px;}
+    60% {left:87px; top:800px;}
+    80% {left:87px; top:1200px;}
+    100% {left:87px; top:1600px;}
+  }
+  /* анимация картинок второй части */
+  @keyframes window {
+    0% {left:134px; top:-205px;}
+    20% {left:134px; top:295px;}
+    40% {left:134px; top:795px;}
+    60% {left:134px; top:1295px;}
+    80% {left:134px; top:1795px;}
+    100% {left:134px; top:2295px;}
+  }
+  @keyframes orange_two {
+    0% {left:1077px; top:-115px;}
+    20% {left:1077px; top:485px;}
+    40% {left:1077px; top:1085px;}
+    60% {left:1077px; top:1685px;}
+    80% {left:1077px; top:2285px;}
+    100% {left:1077px; top:2885px;}
+  }
+  @keyframes wdm {
+    0% {left:715px; top:-51px;}
+    20% {left:715px; top:649px;}
+    40% {left:715px; top:1349px;}
+    60% {left:715px; top:2049px;}
+    80% {left:715px; top:2749px;}
+    100% {left:715px; top:3449px;}
+  }
+  @keyframes purple_star {
+    0% {left:1278px; top:-136px;}
+    20% {left:1278px; top:664px;}
+    40% {left:1278px; top:1464px;}
+    60% {left:1278px; top:2264px;}
+    80% {left:1278px; top:3064px;}
+    100% {left:1278px; top:3827px;}
+  }
+  @keyframes circle_window {
+    0% {left:1001px; top:205px;}
+    20% {left:1001px; top:1005px;}
+    40% {left:1001px; top:1805px;}
+    60% {left:1001px; top:2605px;}
+    80% {left:1001px; top:3405px;}
+    100% {left:1001px; top:4208px;}
+  }
+  /* анимация картинок последней части */
+  @keyframes snow {
+    0% {left:23px; top:2100px;}
+    20% {left:23px; top:2600px;}
+    40% {left:23px; top:3100px;}
+    60% {left:23px; top:3600px;}
+    80% {left:23px; top:4100px;}
+    100% {left:23px; top:4600px;}
+  }
+  @keyframes purp {
+    0% {left:939px; top:2610px;}
+    20% {left:939px; top:3110px;}
+    40% {left:939px; top:3610px;}
+    60% {left:939px; top:4110px;}
+    80% {left:939px; top:4610px;}
+    100% {left:939px; top:5110px;}
+  }
+  @keyframes blls {
+    0% {left:770px; top:2598px;}
+    20% {left:770px; top:3098px;}
+    40% {left:770px; top:3598px;}
+    60% {left:770px; top:4098px;}
+    80% {left:770px; top:4598px;}
+    100% {left:770px; top:5098px;}
+  }
+  @keyframes yellow_mouse {
+    0% {left:745px; top:2436px;}
+    20% {left:745px; top:3036px;}
+    40% {left:745px; top:3636px;}
+    60% {left:745px; top:4236px;}
+    80% {left:745px; top:4836px;}
+    100% {left:745px; top:5436px;}
+  }
+  @keyframes sck {
+    0% {left:209px; top:3180px;}
+    20% {left:209px; top:3680px;}
+    40% {left:209px; top:4180px;}
+    60% {left:209px; top:4680px;}
+    80% {left:209px; top:5180px;}
+    100% {left:209px; top:5680px;}
+  }
+  @keyframes green_mouse {
+    0% {left:548px; top:2794px;}
+    20% {left:548px; top:3394px;}
+    40% {left:548px; top:3994px;}
+    60% {left:548px; top:4594px;}
+    80% {left:548px; top:5194px;}
+    100% {left:548px; top:5794px;}
+  }
+} */
+  /* адаптив текста первой части начинается здесь */
+/* @media (min-width: 834px) and (max-width: 1024px) {
+  .crazy {
+    top: 1457px;
+    left: 115px;
+  }
+  .new {
+    left: 502px;
+    top: 161px;
+  }
+  .madhouse {
+    left: 1477px;
+    top: 293px;
+  }
+  .sculpt {
+    left: 40px;
+    top: 856px;
+  }
+  .make {
+    left: 47px;
+    top: 2228px;
+  }
+  .pick {
+    top: 2610px;
+    width: 800px;
+  }
+  .what {
+    font-size: 120%;
+    top: 1294px;
+  }
+  .data_one {
+    left: 553px;
+    top: 1503px;
+  }
+  .onthen {
+    left: 450px;
+    top: 1984px;
+  }
+  /* адптив картинок первой части начинается здесь */
+  .garland {
+    width: 44%;
+  }
+  .orange {
+    width: 20%;
+  }
+  .sweet_home {
+    width: 30%;
+    left: 429px;
+    top: 221px;
+  }
+  .ball {
+    width: 33%;
+  }
+  .little_sock {
+    width: 28%;
+  }
+  .snowman {
+    width:88%;
+    left: 150px;
+    top: 670px;
+  }
+  .tree {
+    width: 42%;
+    top: 1600px;
+  }
+  .spiral {
+    width: 30%;
+  }
+  .house {
+    width: 27%;
+  }
+  .orange_down {
+    width: 23%;
+  }
+  .glassball {
+    width: 28%;
+    left: 810px;
+  }
+  .bells {
+    width: 33%;
+    left: 1127px;
+    top: 257px;
+  }
+  .sock {
+    width: 32%;
+  }
+  .star {
+    width: 42%;
+    left: 1157px;
+  }
+  .candy {
+    width: 33%;
+  }
+  /* адаптивы текста второй части */
+  /* адаптивы картинов второй части */
+  .garland_full {
+    width: 40%;
+  }
+  .window {
+    width: 50%;
+    left: 134px;
+    top: 2295px;
+  }
+  .mouse {
+    width: 39%;
+  }
+  .swe_house {
+    width: 35%;
+  }
+  .orange_two {
+    width: 18%;
+    left: 1077px;
+  }
+  .wdm {
+    width: 48%;
+    left: 715px;
+  }
+  .white_three {
+    width: 45%;
+  }
+  .mouses {
+    width: 43%;
+  }
+  .purple_star {
+    width: 35%;
+    left: 1278px;
+    top: 3827px;
+  }
+  .iny {
+    width: 43%;
+  }
+  .circle_window {
+    width: 32%;
+    left: 1001px;
+    top: 4208px;
+  }
+  /* адаптивы текстов последней части */
+  .december {
+    font-size: 200%;
+  }
+  .data_two {
+    font-size: 300%;
+  }
+  /* адаптивы картинок последней части */
+  .little_snow {
+    top: 5321px;
+  }
+  .white_tree {
+    width: 38%;
+  }
+  .snow {
+    width: 80%;
+    left: 23px;
+    top: 4600px;
+  }
+  .staron {
+    width: 40%;
+    left: 699px;
+    top: 4598px;
+  }
+  .cand {
+    width: 30%;
+  }
+  .purp {
+    width: 20%;
+    left: 939px;
+    top: 5110px;
+  }
+  .blls {
+    width: 35%;
+    left: 770px;
+    top: 5098px;
+  }
+  .orng {
+    width: 20%;
+  }
+  .yellow_mouse {
+    width: 37%;
+    left: 745px;
+    top: 5436px;
+  }
+  .red_toy {
+    width: 30%;
+  }
+  .sck {
+    width: 35%;
+    left: 209px;
+    top: 5680px;
+  }
+  .green_mouse {
+    width: 35%;
+    left: 548px;
+    top: 5794px;
+  }
+  .shu {
+    width: 27%;
+  }
+  .red {
+    width: 40%;
+  }
+
+  /* анимаця адаптивов первой части */
+  @keyframes sweet_home {
+    0% {left:429px; top:-279px;}
+    20% {left:429px; top:-179px;}
+    40% {left:429px; top:-79px;}
+    60% {left:429px; top:21px;}
+    80% {left:429px; top:121px;}
+    100% {left:429px; top:221px;}
+  }
+  @keyframes glassball {
+    0% {left:810px; top:-121px;}
+    20% {left:810px; top:-31px;}
+    40% {left:810px; top:59px;}
+    60% {left:810px; top:152px;}
+    80% {left:810px; top:242px;}
+    100% {left:810px; top:332px;}
+  }
+  @keyframes bells {
+    0% {left:1127px; top:-93px;}
+    20% {left:1127px; top:-23px;}
+    40% {left:1127px; top:47px;}
+    60% {left:1127px; top:117px;}
+    80% {left:1127px; top:187px;}
+    100% {left:1127px; top:257px;}
+  }
+  @keyframes star {
+    0% {left:1157px; top:240px;}
+    20% {left:1157px; top:340px;}
+    40% {left:1157px; top:440px;}
+    60% {left:1157px; top:540px;}
+    80% {left:1157px; top:640px;}
+    100% {left:1157px; top:740px;}
+  }
+  @keyframes snowman {
+    0% {left:150px; top:-80px;}
+    20% {left:150px; top:70px;}
+    40% {left:150px; top:220px;}
+    60% {left:150px; top:370px;}
+    80% {left:150px; top:520px;}
+    100% {left:150px; top:670px;}
+  }
+  @keyframes tree {
+    0% {left:87px; top:-400px;}
+    20% {left:87px; top:0px;}
+    40% {left:87px; top:400px;}
+    60% {left:87px; top:800px;}
+    80% {left:87px; top:1200px;}
+    100% {left:87px; top:1600px;}
+  }
+  /* анимация картинок второй части */
+  @keyframes window {
+    0% {left:134px; top:-205px;}
+    20% {left:134px; top:295px;}
+    40% {left:134px; top:795px;}
+    60% {left:134px; top:1295px;}
+    80% {left:134px; top:1795px;}
+    100% {left:134px; top:2295px;}
+  }
+  @keyframes orange_two {
+    0% {left:1077px; top:-115px;}
+    20% {left:1077px; top:485px;}
+    40% {left:1077px; top:1085px;}
+    60% {left:1077px; top:1685px;}
+    80% {left:1077px; top:2285px;}
+    100% {left:1077px; top:2885px;}
+  }
+  @keyframes wdm {
+    0% {left:715px; top:-51px;}
+    20% {left:715px; top:649px;}
+    40% {left:715px; top:1349px;}
+    60% {left:715px; top:2049px;}
+    80% {left:715px; top:2749px;}
+    100% {left:715px; top:3449px;}
+  }
+  @keyframes purple_star {
+    0% {left:1278px; top:-136px;}
+    20% {left:1278px; top:664px;}
+    40% {left:1278px; top:1464px;}
+    60% {left:1278px; top:2264px;}
+    80% {left:1278px; top:3064px;}
+    100% {left:1278px; top:3827px;}
+  }
+  @keyframes circle_window {
+    0% {left:1001px; top:205px;}
+    20% {left:1001px; top:1005px;}
+    40% {left:1001px; top:1805px;}
+    60% {left:1001px; top:2605px;}
+    80% {left:1001px; top:3405px;}
+    100% {left:1001px; top:4208px;}
+  }
+  /* анимация картинок последней части */
+  @keyframes snow {
+    0% {left:23px; top:2100px;}
+    20% {left:23px; top:2600px;}
+    40% {left:23px; top:3100px;}
+    60% {left:23px; top:3600px;}
+    80% {left:23px; top:4100px;}
+    100% {left:23px; top:4600px;}
+  }
+  @keyframes staron {
+    0% {left:699px; top:2098px;}
+    20% {left:699px; top:2598px;}
+    40% {left:699px; top:3098px;}
+    60% {left:699px; top:3598px;}
+    80% {left:699px; top:4098px;}
+    100% {left:699px; top:4598px;}
+  }
+  @keyframes purp {
+    0% {left:939px; top:2610px;}
+    20% {left:939px; top:3110px;}
+    40% {left:939px; top:3610px;}
+    60% {left:939px; top:4110px;}
+    80% {left:939px; top:4610px;}
+    100% {left:939px; top:5110px;}
+  }
+  @keyframes blls {
+    0% {left:770px; top:2598px;}
+    20% {left:770px; top:3098px;}
+    40% {left:770px; top:3598px;}
+    60% {left:770px; top:4098px;}
+    80% {left:770px; top:4598px;}
+    100% {left:770px; top:5098px;}
+  }
+  @keyframes yellow_mouse {
+    0% {left:745px; top:2436px;}
+    20% {left:745px; top:3036px;}
+    40% {left:745px; top:3636px;}
+    60% {left:745px; top:4236px;}
+    80% {left:745px; top:4836px;}
+    100% {left:745px; top:5436px;}
+  }
+  @keyframes sck {
+    0% {left:209px; top:3180px;}
+    20% {left:209px; top:3680px;}
+    40% {left:209px; top:4180px;}
+    60% {left:209px; top:4680px;}
+    80% {left:209px; top:5180px;}
+    100% {left:209px; top:5680px;}
+  }
+  @keyframes green_mouse {
+    0% {left:548px; top:2794px;}
+    20% {left:548px; top:3394px;}
+    40% {left:548px; top:3994px;}
+    60% {left:548px; top:4594px;}
+    80% {left:548px; top:5194px;}
+    100% {left:548px; top:5794px;}
+  }
+}
+/* анимация 1280 первой части  */
+/* @keyframes garland {
+  0% {left:1321px; top:-252px;}
+  20% {left:1321px; top:-202px;}
+  40% {left:1321px; top:-152px;}
+  60% {left:1321px; top:-102px;}
+  80% {left:1321px; top:-52px;}
+  100% {left:1321px; top:-2px;}
+}
+@keyframes orange {
+  0% {left:779px; top:-250px;}
+  20% {left:779px; top:-200px;}
+  40% {left:779px; top:-150px;}
+  60% {left:779px; top:-100px;}
+  80% {left:779px; top:-50px;}
+  100% {left:779px; top:0px;}
+}
+@keyframes sweet_home {
+  0% {left:528px; top:-404px;}
+  20% {left:528px; top:-304px;}
+  40% {left:528px; top:-204px;}
+  60% {left:528px; top:-104px;}
+  80% {left:528px; top:-4px;}
+  100% {left:528px; top:104px;}
+}
+@keyframes ball {
+  0% {left:110px; top:-296px;}
+  20% {left:110px; top:-216px;}
+  40% {left:110px; top:-136px;}
+  60% {left:110px; top:-56px;}
+  80% {left:110px; top:24px;}
+  100% {left:110px; top:104px;}
+}
+@keyframes little_sock {
+  0% {left:110px; top:-305px;}
+  20% {left:110px; top:-50px;}
+  40% {left:110px; top:205px;}
+  60% {left:110px; top:305px;}
+  80% {left:110px; top:405px;}
+  100% {left:110px; top:505px;}
+}
+@keyframes ball {
+  0% {left:110px; top:-296px;}
+  20% {left:110px; top:-216px;}
+  40% {left:110px; top:-136px;}
+  60% {left:110px; top:-56px;}
+  80% {left:110px; top:24px;}
+  100% {left:110px; top:104px;}
+}
+@keyframes snowman {
+  0% {left:243px; top:-260px;}
+  20% {left:243px; top:-10px;}
+  40% {left:243px; top:140px;}
+  60% {left:243px; top:290px;}
+  80% {left:243px; top:440px;}
+  100% {left:243px; top:590px;}
+}
+@keyframes tree {
+  0% {left:87px; top:-544px;}
+  20% {left:87px; top:-144px;}
+  40% {left:87px; top:256px;}
+  60% {left:87px; top:656px;}
+  80% {left:87px; top:1056px;}
+  100% {left:87px; top:1456px;}
+}
+@keyframes spiral {
+  0% {left:730px; top:-470px;}
+  20% {left:730px; top:-70px;}
+  40% {left:730px; top:330px;}
+  60% {left:730px; top:730px;}
+  80% {left:730px; top:1132px;}
+  100% {left:730px; top:1532px;}
+}
+@keyframes house {
+  0% {left:1079px; top:-291px;}
+  20% {left:1079px; top:109px;}
+  40% {left:1079px; top:509px;}
+  60% {left:1079px; top:909px;}
+  80% {left:1079px; top:1309px;}
+  100% {left:1079px; top:1709px;}
+}
+@keyframes orange_down {
+  0% {left:1471px; top:-398px;}
+  20% {left:1471px; top:102px;}
+  40% {left:1471px; top:602px;}
+  60% {left:1471px; top:1102px;}
+  80% {left:1471px; top:1602px;}
+  100% {left:1471px; top:2102px;}
+}
+@keyframes glassball {
+  0% {left:914px; top:-121px;}
+  20% {left:914px; top:-31px;}
+  40% {left:914px; top:59px;}
+  60% {left:914px; top:152px;}
+  80% {left:914px; top:242px;}
+  100% {left:914px; top:332px;}
+}
+@keyframes bells {
+  0% {left:1224px; top:-73px;}
+  20% {left:1224px; top:-3px;}
+  40% {left:1224px; top:67px;}
+  60% {left:1224px; top:137px;}
+  80% {left:1224px; top:204px;}
+  100% {left:1224px; top:277px;}
+}
+@keyframes sock {
+  0% {left:1467px; top:64px;}
+  20% {left:1467px; top:144px;}
+  40% {left:1467px; top:224px;}
+  60% {left:1467px; top:304px;}
+  80% {left:1467px; top:384px;}
+  100% {left:1467px; top:464px;}
+}
+@keyframes star {
+  0% {left:1227px; top:240px;}
+  20% {left:1227px; top:340px;}
+  40% {left:1227px; top:440px;}
+  60% {left:1227px; top:540px;}
+  80% {left:1227px; top:640px;}
+  100% {left:1227px; top:740px;}
+}
+@keyframes candy {
+  0% {left:1396px; top:-273px;}
+  20% {left:1396px; top:27px;}
+  40% {left:1396px; top:327px;}
+  60% {left:1396px; top:627px;}
+  80% {left:1396px; top:927px;}
+  100% {left:1396px; top:1227px;}
+}
+/* анимация второй части начинается здесь */
+@keyframes garland_full {
+  0% {left:859px; top:-958px;}
+  20% {left:859px; top:-358px;}
+  40% {left:859px; top:242px;}
+  60% {left:859px; top:842px;}
+  80% {left:859px; top:1442px;}
+  100% {left:859px; top:2042px;}
+}
+@keyframes window {
+  0% {left:95px; top:-369px;}
+  20% {left:95px; top:131px;}
+  40% {left:95px; top:631px;}
+  60% {left:95px; top:1131px;}
+  80% {left:95px; top:1631px;}
+  100% {left:95px; top:2131px;}
+}
+@keyframes mouse {
+  0% {left:1264px; top:-553px;}
+  20% {left:1264px; top:47px;}
+  40% {left:1264px; top:647px;}
+  60% {left:1264px; top:1247px;}
+  80% {left:1264px; top:1847px;}
+  100% {left:1264px; top:2447px;}
+}
+@keyframes swe_house {
+  0% {left:654px; top:-703px;}
+  20% {left:654px; top:-3px;}
+  40% {left:654px; top:697px;}
+  60% {left:654px; top:1397px;}
+  80% {left:654px; top:2097px;}
+  100% {left:654px; top:2797px;}
+}
+@keyframes orange_two {
+  0% {left:960px; top:-115px;}
+  20% {left:960px; top:485px;}
+  40% {left:960px; top:1085px;}
+  60% {left:960px; top:1685px;}
+  80% {left:960px; top:2285px;}
+  100% {left:960px; top:2885px;}
+}
+@keyframes wdm {
+  0% {left:899px; top:-51px;}
+  20% {left:899px; top:649px;}
+  40% {left:899px; top:1349px;}
+  60% {left:899px; top:2049px;}
+  80% {left:899px; top:2749px;}
+  100% {left:899px; top:3449px;}
+}
+@keyframes white_three {
+  0% {left:1385px; top:1208px;}
+  20% {left:1385px; top:1608px;}
+  40% {left:1385px; top:2008px;}
+  60% {left:1385px; top:2410px;}
+  80% {left:1385px; top:2810px;}
+  100% {left:1385px; top:3210px;}
+}
+@keyframes mouses {
+  0% {left:172px; top:515px;}
+  20% {left:172px; top:1115px;}
+  40% {left:172px; top:1615px;}
+  60% {left:172px; top:2115px;}
+  80% {left:172px; top:2615px;}
+  100% {left:172px; top:3115px;}
+}
+@keyframes purple_star {
+  0% {left:1353px; top:-136px;}
+  20% {left:1353px; top:664px;}
+  40% {left:1353px; top:1464px;}
+  60% {left:1353px; top:2264px;}
+  80% {left:1353px; top:3064px;}
+  100% {left:1353px; top:3864px;}
+}
+@keyframes iny {
+  0% {left:526px; top:966px;}
+  20% {left:526px; top:1566px;}
+  40% {left:526px; top:2166px;}
+  60% {left:526px; top:2766px;}
+  80% {left:526px; top:3366px;}
+  100% {left:526px; top:3966px;}
+}
+@keyframes circle_window {
+  0% {left:1087px; top:230px;}
+  20% {left:1087px; top:1030px;}
+  40% {left:1087px; top:1830px;}
+  60% {left:1087px; top:2630px;}
+  80% {left:1087px; top:3430px;}
+  100% {left:1087px; top:4230px;}
+} */
+/* анимация 1280 последнего блока */
+/* @keyframes circle_window {
+  0% {left:1087px; top:230px;}
+  20% {left:1087px; top:1030px;}
+  40% {left:1087px; top:1830px;}
+  60% {left:1087px; top:2630px;}
+  80% {left:1087px; top:3430px;}
+  100% {left:1087px; top:4230px;}
+}
+@keyframes white_tree {
+  0% {left:1320px; top:2041px;}
+  20% {left:1320px; top:2541px;}
+  40% {left:1320px; top:3041px;}
+  60% {left:1320px; top:3541px;}
+  80% {left:1320px; top:4041px;}
+  100% {left:1320px; top:4541px;}
+}
+@keyframes snow {
+  0% {left:32px; top:2025px;}
+  20% {left:32px; top:2525px;}
+  40% {left:32px; top:3025px;}
+  60% {left:32px; top:3525px;}
+  80% {left:32px; top:4025px;}
+  100% {left:32px; top:4526px;}
+}
+@keyframes staron {
+  0% {left:686px; top:2025px;}
+  20% {left:686px; top:2525px;}
+  40% {left:686px; top:3025px;}
+  60% {left:686px; top:3525px;}
+  80% {left:686px; top:4025px;}
+  100% {left:686px; top:4526px;}
+}
+@keyframes cand {
+  0% {left:477px; top:3060px;}
+  20% {left:477px; top:3060px;}
+  40% {left:477px; top:3560px;}
+  60% {left:477px; top:4060px;}
+  80% {left:477px; top:4560px;}
+  100% {left:477px; top:5060px;}
+}
+@keyframes purp {
+  0% {left:999px; top:2684px;}
+  20% {left:999px; top:3184px;}
+  40% {left:999px; top:3684px;}
+  60% {left:999px; top:4184px;}
+  80% {left:999px; top:4684px;}
+  100% {left:999px; top:5184px;}
+}
+@keyframes blls {
+  0% {left:739px; top:2684px;}
+  20% {left:739px; top:3184px;}
+  40% {left:739px; top:3684px;}
+  60% {left:739px; top:4184px;}
+  80% {left:739px; top:4684px;}
+  100% {left:739px; top:5184px;}
+}
+@keyframes orng {
+  0% {left:529px; top:3055px;}
+  20% {left:529px; top:3555px;}
+  40% {left:529px; top:4055px;}
+  60% {left:529px; top:4555px;}
+  80% {left:529px; top:5055px;}
+  100% {left:529px; top:5555px;}
+}
+@keyframes yellow_mouse {
+  0% {left:760px; top:2487px;}
+  20% {left:760px; top:3087px;}
+  40% {left:760px; top:3687px;}
+  60% {left:760px; top:4287px;}
+  80% {left:760px; top:4887px;}
+  100% {left:760px; top:5487px;}
+}
+@keyframes red_toy {
+  0% {left:1097px; top:2871px;}
+  20% {left:1097px; top:3371px;}
+  40% {left:1097px; top:3871px;}
+  60% {left:1097px; top:4371px;}
+  80% {left:1097px; top:4871px;}
+  100% {left:1097px; top:5371px;}
+}
+@keyframes sck {
+  0% {left:252px; top:3262px;}
+  20% {left:252px; top:3762px;}
+  40% {left:252px; top:4262px;}
+  60% {left:252px; top:4762px;}
+  80% {left:252px; top:5262px;}
+  100% {left:252px; top:5762px;}
+}
+@keyframes green_mouse {
+  0% {left:620px; top:2841px;}
+  20% {left:620px; top:3441px;}
+  40% {left:620px; top:4041px;}
+  60% {left:620px; top:4641px;}
+  80% {left:620px; top:5241px;}
+  100% {left:620px; top:5841px;}
+}
+@keyframes shu {
+  0% {left:1093px; top:3186px;}
+  20% {left:1093px; top:3686px;}
+  40% {left:1093px; top:4186px;}
+  60% {left:1093px; top:4686px;}
+  80% {left:1093px; top:5186px;}
+  100% {left:1093px; top:5686px;}
+}
+@keyframes red {
+  0% {left:943px; top:2963px;}
+  20% {left:943px; top:3563px;}
+  40% {left:943px; top:4163px;}
+  60% {left:943px; top:4763px;}
+  80% {left:943px; top:5363px;}
+  100% {left:943px; top:5963px;}
+} */

@@ -2,4 +2,6 @@
 @import url(@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap'););
 @import "font.css";
 @import "content.css";
-@import "responsive.css";
+@import '1440x900.css';
+@import '1920.css';
+@import '1024-1280.css';
