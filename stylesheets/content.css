@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
-  width: 1280px;
+  /* width: 1280px; */
   height: 4690px;
   margin: 0 auto;
   margin-bottom: 0 auto;
@@ -19,7 +19,7 @@ body {
 main {
   position: relative;
   display: block;
-  width: 1280px;
+  /* width: 1280px; */
   height: 4682px;
   overflow: hidden;
 }
@@ -244,7 +244,11 @@ main {
   height: auto;
   left: 8%;
   top: 11%;
+  transition: transform .8s ease-in-out;
   animation: snowman 10s linear 1;
+}
+.snowman:hover {
+  transform: rotate(360deg);
 }
 .tree {
   position: absolute;
@@ -341,7 +345,11 @@ main {
   height: auto;
   left: 66%;
   top: 37%;
+  transition: transform .8s ease-in-out;
   animation: mouse 11s linear 1;
+}
+.mouse:hover {
+  transform: scale(0.5);
 }
 .swe_house {
   position: absolute;
@@ -396,6 +404,7 @@ main {
   left: 74%;
   top: 59%;
   animation: purple_star 15s linear 1;
+  animation: purple_star 1.5s alternate infinite ease-in;
 }
 .iny {
   position: absolute;
@@ -518,7 +527,7 @@ main {
   height: auto;
   left: 28%;
   top: 86%;
-  animation: orng 35s linear 1;
+  animation: orng 5s infinite linear;
 }
 .yellow_mouse {
   position: absolute;
@@ -574,6 +583,7 @@ main {
   top: 94%;
   /* animation: red 30s linear 1; */
   animation: red 2s infinite;
+  animation: red 1.5s alternate infinite ease-in;
 }
 .red:hover {
   transform: rotate(360deg);
@@ -646,6 +656,14 @@ main {
   75% {left:8%; top:6%;}
   100% {left:8%; top:11%;}
 }
+/* @keyframes snowman {
+  0% {
+      transform:rotate(0deg);
+  }
+  100% {
+        transform:rotate(360deg);
+  }
+} */
 @keyframes tree {
   0% {left:7%; top:-24%;}
   25% {left:7%; top:-8%;}
@@ -752,6 +770,10 @@ main {
   75% {left:74%; top:49%;}
   100% {left:74%; top:59%;}
 }
+@keyframes purple_star {
+  0%   {transform: scale(.8);}
+  100% {transform: scale(1.5);}
+}
 @keyframes iny {
   0% {left:15%; top:20%;}
   25% {left:15%; top:40%;}
@@ -820,6 +842,14 @@ main {
   75% {left:28%; top:76%;}
   100% {left:28%; top:86%;}
 }
+@keyframes orng {
+  0% {
+  transform: rotate(0deg);
+  }
+  100% {
+  transform: rotate(360deg);
+  }
+}
 @keyframes yellow_mouse {
   0% {left:39%; top:62%;}
   25% {left:39%; top:68%;}
@@ -855,6 +885,10 @@ main {
   75% {left:66%; top:69%;}
   100% {left:66%; top:89%;}
 }
+@keyframes red {
+  0%   {transform: scale(.8);}
+  100% {transform: scale(1.2);}
+}
 /* @keyframes red {
   0% {left:52%; top:54%;}
   25% {left:52%; top:64%;}
@@ -862,7 +896,8 @@ main {
   75% {left:52%; top:84%;}
   100% {left:52%; top:94%;}
 } */
-@media (min-width: 1024px) and (max-width: 1280px) {
+
+@media (min-width: 1024px) and (max-width: 1279px) {
   main {
 
   }
@@ -902,10 +937,10 @@ main {
     left: 44%;
   }
   .white_three {
-    width: 22%;
+    width: 25%;
     height: auto;
     left: 66%;
-    top: 70%;
+    top: 48%;
   }
   .data_one {
     left: 78%;
