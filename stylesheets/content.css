@@ -10,6 +10,7 @@ body {
   background-image: url("../images/all_1280.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   background-color: white;
   /* width: 1280px; */
   height: 4690px;
@@ -189,7 +190,11 @@ main {
   height: auto;
   left: 53.5%;
   top: 3.5%;
+  transition: transform .8s ease-in-out;
   animation: bells 5s linear 1;
+}
+.bells:hover {
+  transform: rotate(-360deg);
 }
 .sock {
   position: absolute;
@@ -346,7 +351,7 @@ main {
   left: 66%;
   top: 37%;
   transition: transform .8s ease-in-out;
-  animation: mouse 11s linear 1;
+  /* animation: mouse 11s linear 1; */
 }
 .mouse:hover {
   transform: scale(0.5);
@@ -358,7 +363,11 @@ main {
   height: auto;
   left: 42%;
   top: 43%;
+  transition: transform .8s ease-in-out;
   animation: swe_house 11s linear 1;
+}
+.swe_house:hover {
+  transform: rotate(360deg);
 }
 .orange_two {
   position: absolute;
@@ -449,8 +458,8 @@ main {
   font-weight: 300;
   font-size: 60%;
   height: auto;
-  left: 42px;
-  top: 3871px;
+  left: 16%;
+  top: 84%;
   transform: rotate(-22deg);
 }
 /* картинки последней части */
@@ -536,7 +545,11 @@ main {
   height: auto;
   left: 39%;
   top: 86%;
-  animation: yellow_mouse 35s linear 1;
+  transition: transform .5s ease-in-out;
+  /* animation: yellow_mouse 10s linear 1; */
+}
+.yellow_mouse:hover {
+  transform: scale(0.5);
 }
 .red_toy {
   position: absolute;
@@ -563,7 +576,11 @@ main {
   height: auto;
   left: 30%;
   top: 92%;
-  animation: green_mouse 30s linear 1;
+  transition: transform .5s ease-in-out;
+  /* animation: green_mouse 30s linear 1; */
+}
+.green_mouse:hover {
+  transform: scale(1.5);
 }
 .shu {
   position: absolute;
@@ -656,14 +673,6 @@ main {
   75% {left:8%; top:6%;}
   100% {left:8%; top:11%;}
 }
-/* @keyframes snowman {
-  0% {
-      transform:rotate(0deg);
-  }
-  100% {
-        transform:rotate(360deg);
-  }
-} */
 @keyframes tree {
   0% {left:7%; top:-24%;}
   25% {left:7%; top:-8%;}
@@ -719,17 +728,6 @@ main {
   50% {left:7%; top:18%;}
   75% {left:7%; top:26%;}
   100% {left:7%; top:34%;}
-}
-/* @keyframes mouse {
-  0% {left:66%; top:-15%;}
-  25% {left:66%; top:10%;}
-  50% {left:66%; top:18%;}
-  75% {left:66%; top:26%;}
-  100% {left:66%; top:37%;}
-} */
-@keyframes mouse {
-  from {top:100%;}
-  to {top:37%;}
 }
 @keyframes swe_house {
   0% {left:42%; top:-11%;}
@@ -802,6 +800,7 @@ main {
   75% {left:72%; top:57%;}
   100% {left:72%; top:67%;}
 }
+/* анимация картинок последней части */
 @keyframes snow {
   0% {left:2.5%; top:2%;}
   25% {left:2.5%; top:22%;}
@@ -816,10 +815,6 @@ main {
   100% {
       transform:rotate(360deg);
   }
-}
-@keyframes cand {
-  from {left:-100%;}
-  to {left:25%;}
 }
 @keyframes purp {
   0% {left:51%; top:10%;}
@@ -857,6 +852,10 @@ main {
   75% {left:39%; top:80%;}
   100% {left:39%; top:86%;}
 }
+@keyframes yellow_mouse {
+  from {top:100%;}
+  to {top:37%;}
+}
 @keyframes red_toy {
   0% {left:63%; top:68%;}
   25% {left:63%; top:72%;}
@@ -871,13 +870,6 @@ main {
   75% {left:11%; top:80%;}
   100% {left:11%; top:90%;}
 }
-@keyframes green_mouse {
-  0% {left:30%; top:52%;}
-  25% {left:30%; top:62%;}
-  50% {left:30%; top:72%;}
-  75% {left:30%; top:82%;}
-  100% {left:30%; top:92%;}
-}
 @keyframes shu {
   0% {left:66%; top:9%;}
   25% {left:66%; top:29%;}
@@ -888,66 +880,4 @@ main {
 @keyframes red {
   0%   {transform: scale(.8);}
   100% {transform: scale(1.2);}
-}
-/* @keyframes red {
-  0% {left:52%; top:54%;}
-  25% {left:52%; top:64%;}
-  50% {left:52%; top:74%;}
-  75% {left:52%; top:84%;}
-  100% {left:52%; top:94%;}
-} */
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  main {
-
-  }
-  .garland {
-    left: 55%;
-  }
-  .sock {
-    left: 69%;
-  }
-  .snowman {
-    left: 12%;
-  }
-  .candy {
-    width: 15%;
-    left: 70%;
-    top: 20%;
-  }
-  .star {
-    width: 22%;
-  }
-  .window {
-    width: 27%;
-  }
-  .fonts {
-    width: 25%;
-  }
-  .mouse {
-    width: 20%;
-    left: 63%;
-    top: 38%;
-  }
-  .mouses {
-    width: 25%;
-  }
-  .wdm {
-    width: 35%;
-    left: 44%;
-  }
-  .white_three {
-    width: 25%;
-    height: auto;
-    left: 66%;
-    top: 48%;
-  }
-  .data_one {
-    left: 78%;
-  }
-  .white_tree {
-    width: 22%;
-    left: 64%;
-    top: 69%;
-  }
 }

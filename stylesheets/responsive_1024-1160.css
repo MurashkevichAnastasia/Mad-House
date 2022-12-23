@@ -1,0 +1,82 @@
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1160px) {
+  body {
+    background-image: url("../images/all_1200.png");
+    background-size: cover;
+  }
+  /* картинки второй части */
+  .iny {
+    width: 29%;
+    left: 14%;
+    top: 66%;
+  }
+  .december {
+    left: 8.82%;
+    top: 74.4%;
+  }
+  .snow {
+    width: 42%;
+    left: 7.5%;
+    top: 76%;
+  }
+  .white_tree {
+    width: 26%;
+    left: 66%;
+    top: 69%;
+  }
+/* картинки нижней части  */
+  .staron {
+    width: 27%;
+    left: 39%;
+    top: 78%;
+  }
+  .purp {
+    width: 10%;
+    left: 53%;
+    top: 85%;
+  }
+  .cand {
+    width: 17%;
+    left: 29%;
+    top: 84.5%;
+  }
+  .orng {
+    width: 10%;
+    left: 38%;
+    top: 89%;
+  }
+  .blls {
+    width: 20%;
+    left: 47%;
+    top: 86%;
+  }
+  .yellow_mouse {
+    width: 19%;
+    left: 46%;
+    top: 90%;
+  }
+  .green_mouse {
+    width: 21%;
+    left: 28%;
+    top: 92%;
+  }
+  .red_toy {
+    width: 14%;
+    left: 65%;
+    top: 88%;
+  }
+  .shu {
+    width: 13%;
+    height: auto;
+    left: 66%;
+    top: 91%;
+  }
+  .red {
+    width: 31%;
+    left: 51%;
+    top: 94%;
+  }
+  .sck {
+    display: none;
+  }
+}
+/* анимаций первой части */

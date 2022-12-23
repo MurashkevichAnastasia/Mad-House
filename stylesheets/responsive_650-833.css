@@ -1,0 +1,201 @@
+@media screen and (min-width: 650px) and (max-width: 833px) {
+  body {
+    background-image: url("../images/650.png");
+    background-size: cover;
+  }
+  /* тексты первой части */
+  .mousees {
+    font-size: 69%;
+    left: 8%;
+    top: 0.73%;
+  }
+  .new {
+    font-size: 67%;
+  }
+  .madhouse {
+    font-size: 66%;
+    left: 54%;
+  }
+  .sculpt {
+    font-size: 46%;
+    left: -0.1%;
+    top: 11.6%;
+  }
+  .onthen {
+    font-size: 86%;
+    left: 26%;
+    top: 12%;
+  }
+  .data_one {
+    font-size: 82%;
+    left: 81%;
+    top: 17.3%;
+  }
+  .what {
+    font-size: 94%;
+    left: 27.8%;
+    top: 21.7%;
+  }
+  /* картинки первой части */
+  .nora {
+    width: 48%;
+    left: 26.3%;
+  }
+  .sweet_home {
+    width: 21%;
+    left: 25%;
+    top: 1.67%;
+  }
+  .snowman {
+    width: 60%;
+    left: 9%;
+    top: 12%;
+  }
+  .star {
+    width: 26%;
+    left: 65%;
+    top: 11.6%;
+  }
+  .tree {
+    width: 31%;
+  }
+  .house {
+    left: 75%;
+    top: 29%;
+  }
+  /* шрифты второй части */
+  .ii {
+    font-size: 313%;
+    left: 48.75%;
+    top: 56.4%;
+  }
+  .pick {
+    font-size: 43%;
+    left: 26.15%;
+    top: 36.7%;
+  }
+  .december {
+    font-size: 115%;
+    left: 6.82%;
+    top: 77.4%;
+  }
+  /* картинки второй части */
+  .garland_full {
+    width: 31%;
+  }
+  .window {
+    width: 34%;
+    left: 7%;
+    top: 36%;
+  }
+  .fonts {
+    width: 36%;
+    left: 14%;
+    top: 39%;
+  }
+  .mouse {
+    width: 31%;
+    left: 62%;
+    top: 39%;
+  }
+  .swe_house {
+    width: 26%;
+    left: 31%;
+    top: 43%;
+  }
+  .wdm {
+    width: 51%;
+    left: 19%;
+    top: 53%;
+  }
+  .white_three {
+    width: 35%;
+    left: 60%;
+    top: 47%;
+  }
+  .orange_two {
+    left: 36%;
+    top: 50%;
+  }
+  .mouses {
+    width: 33%;
+    left: 8%;
+    top: 57%;
+  }
+  .iny {
+    width: 40%;
+    left: 13%;
+    top: 70%;
+  }
+  .white_tree {
+    width: 37%;
+    left: 59%;
+    top: 72%;
+  }
+  .snow {
+    width: 42%;
+    left: 5.5%;
+    top: 78.4%;
+  }
+  /* тексты последней части */
+  .data_two {
+    font-size: 168%;
+    left: 77%;
+    top: 86.6%;
+  }
+  /* картинки последней части */
+  .staron {
+    width: 32%;
+    left: 32%;
+    top: 72%;
+  }
+  .sck {
+    width: 32%;
+    left: 11%;
+    top: 96%;
+  }
+  .green_mouse {
+    width: 32%;
+    left: 32%;
+    top: 95%;
+  }
+  .red {
+    top: 96%;
+  }
+  .green_mouse {
+    left: 26%;
+    top: 94%;
+  }
+  .little_snow {
+    top: 88.4%;
+    left: 76%;
+  }
+  .cand {
+    left: 23%;
+    top: 87.5%;
+  }
+  .green_mouse {
+    width: 30%;
+    left: 34%;
+    top: 93%;
+  }
+  .orng {
+    left: 20%;
+    top: 92%;
+  }
+  .shu {
+    width: 19%;
+    left: 66%;
+    top: 93%;
+  }
+  .sck {
+    width: 27%;
+    left: 11%;
+    top: 95%;
+  }
+  .red {
+    width: 43%;
+    left: 48%;
+    top: 96%;
+  }
+}
