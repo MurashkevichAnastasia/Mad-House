@@ -10,8 +10,9 @@
     top: 66%;
   }
   .december {
-    left: 8.82%;
-    top: 74.4%;
+    font-size: 156%;
+    left: 3.82%;
+    top: 76.6%;
   }
   .snow {
     width: 42%;
@@ -23,11 +24,10 @@
     left: 66%;
     top: 69%;
   }
-/* картинки нижней части  */
+
   .staron {
-    width: 27%;
-    left: 39%;
-    top: 78%;
+    left: 40%;
+    top: 77%;
   }
   .purp {
     width: 10%;
@@ -79,4 +79,3 @@
     display: none;
   }
 }
-/* анимаций первой части */

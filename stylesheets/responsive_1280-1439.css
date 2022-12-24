@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 834px) and (max-device-width: 1023px) {
+/* @media only screen and (min-device-width: 834px) and (max-device-width: 1023px) {
   body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -17,15 +17,15 @@
     margin: 0 auto;
     margin-bottom: 0 auto;
   }
-  main {
+  /* main {
     position: relative;
     display: block;
     /* width: 1280px; */
     height: 4682px;
-    overflow: hidden;
+    overflow: hidden; */
   }
   /* тескты 1 части 1280 */
-  .mousees {
+  /* .mousees {
     position: absolute;
     display: block;
     height: auto;
@@ -127,7 +127,7 @@
     transform: rotate(3deg);
   }
   /* картинки 1 части 1280 */
-  .fonts {
+  /* .fonts {
     position: absolute;
     display: block;
     width: 30%;
@@ -290,10 +290,10 @@
     left: 82%;
     top: 26%;
     animation: orange_down 17s linear 1;
-  }
+  } */
 
   /* текст второй части 1280px */
-  .pick {
+  /* .pick {
     position: absolute;
     display: block;
     font-weight: 300;
@@ -323,9 +323,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-  }
+  } */
   /* картинки второго блока 1280 */
-  .garland_full {
+  /* .garland_full {
     position: absolute;
     display: block;
     width: 21%;
@@ -432,9 +432,9 @@
     left: 54%;
     top: 63%;
     animation: circle_window 15s linear 1;
-  }
+  } */
   /* текст последнего блока 1280 */
-  .december {
+  /* .december {
     position: absolute;
     display: block;
     font-weight: 500;
@@ -461,9 +461,9 @@
     left: 16%;
     top: 84%;
     transform: rotate(-22deg);
-  }
+  } */
   /* картинки последней части */
-  .little_snow {
+  /* .little_snow {
     position: absolute;
     display: block;
     width: 15%;
@@ -545,10 +545,10 @@
     height: auto;
     left: 39%;
     top: 86%;
-    transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out; */
     /* animation: yellow_mouse 10s linear 1; */
   }
-  .yellow_mouse:hover {
+  /* .yellow_mouse:hover {
     transform: scale(0.5);
   }
   .red_toy {
@@ -576,9 +576,9 @@
     height: auto;
     left: 30%;
     top: 92%;
-    transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out; */
     /* animation: green_mouse 30s linear 1; */
-  }
+  /* }
   .green_mouse:hover {
     transform: scale(1.5);
   }
@@ -597,14 +597,14 @@
     width: 35%;
     height: auto;
     left: 52%;
-    top: 94%;
+    top: 94%; */
     /* animation: red 30s linear 1; */
-    animation: red 2s infinite;
+    /* animation: red 2s infinite;
     animation: red 1.5s alternate infinite ease-in;
   }
   .red:hover {
     transform: rotate(360deg);
-  }
+  } */
 
   /* анимация 1280
   анимация картинок 1 части 1280px */
@@ -616,7 +616,7 @@
       transform:rotate(360deg);
     }
   }
-  @keyframes garland {
+  /* @keyframes garland {
     0% {left:68%; top:-4.5%;}
     50% {left:68%; top:-2%;}
     100% {left:68%; top:0%;}
@@ -880,5 +880,5 @@
   @keyframes red {
     0%   {transform: scale(.8);}
     100% {transform: scale(1.2);}
-  }
-}
+  } */
+} */ */
