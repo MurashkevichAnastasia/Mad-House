@@ -762,11 +762,11 @@ main {
   to {top:48%;}
 }
 @keyframes purple_star {
-  0% {left:74%; top:-9%;}
-  25% {left:74%; top:19%;}
-  50% {left:74%; top:39%;}
-  75% {left:74%; top:49%;}
-  100% {left:74%; top:59%;}
+  0% {left:56%; top:-10%;}
+  25% {left:56%; top:10%;}
+  50% {left:56%; top:30%;}
+  75% {left:56%; top:50%;}
+  100% {left:56%; top:70%;}
 }
 @keyframes purple_star {
   0%   {transform: scale(.8);}

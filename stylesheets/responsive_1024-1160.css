@@ -16,17 +16,17 @@
   }
   .snow {
     width: 42%;
-    left: 7.5%;
-    top: 76%;
+    left: 2.5%;
+    top: 78%;
   }
   .white_tree {
     width: 26%;
     left: 66%;
     top: 69%;
   }
-
   .staron {
-    left: 40%;
+    width: 29%;
+    left: 39%;
     top: 77%;
   }
   .purp {
@@ -77,5 +77,90 @@
   }
   .sck {
     display: none;
+  }
+  @keyframes iny {
+    0% {left:14%; top:23%;}
+    25% {left:14%; top:43%;}
+    50% {left:14%; top:53%;}
+    75% {left:14%; top:63%;}
+    100% {left:14%; top:66%;}
+  }
+  /* анимация второй части */
+  @keyframes white_tree {
+    0% {left:66%; top:27%;}
+    25% {left:66%; top:37%;}
+    50% {left:66%; top:47%;}
+    75% {left:66%; top:57%;}
+    100% {left:66%; top:69%;}
+  }
+  /* анимация картинок последней части */
+  @keyframes snow {
+    0% {left:2.5%; top:2%;}
+    25% {left:2.5%; top:22%;}
+    50% {left:2.5%; top:32%;}
+    75% {left:2.5%; top:52%;}
+    100% {left:2.5%; top:72%;}
+  }
+  @keyframes staron {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+  }
+  @keyframes purp {
+    0% {left:53%; top:15%;}
+    25% {left:53%; top:25%;}
+    50% {left:53%; top:45%;}
+    75% {left:53%; top:65%;}
+    100% {left:53%; top:85%;}
+  }
+  @keyframes blls {
+    0% {left:40%; top:5%;}
+    25% {left:40%; top:10%;}
+    50% {left:40%; top:19%;}
+    75% {left:40%; top:49%;}
+    100% {left:40%; top:79%;}
+  }
+  @keyframes orng {
+    0% {left:38%; top:46%;}
+    25% {left:38%; top:56%;}
+    50% {left:38%; top:66%;}
+    75% {left:38%; top:76%;}
+    100% {left:38%; top:89%;}
+  }
+  @keyframes orng {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+  }
+  @keyframes yellow_mouse {
+    0% {left:46%; top:63%;}
+    25% {left:46%; top:69%;}
+    50% {left:46%; top:75%;}
+    75% {left:46%; top:81%;}
+    100% {left:46%; top:90%;}
+  }
+  @keyframes yellow_mouse {
+    from {top:100%;}
+    to {top:37%;}
+  }
+  @keyframes red_toy {
+    0% {left:65%; top:68%;}
+    25% {left:65%; top:72%;}
+    50% {left:65%; top:76%;}
+    75% {left:65%; top:80%;}
+    100% {left:65%; top:88%;}
+  }
+  @keyframes shu {
+    0% {left:66%; top:9%;}
+    25% {left:66%; top:29%;}
+    50% {left:66%; top:49%;}
+    75% {left:66%; top:69%;}
+    100% {left:66%; top:91%;}
   }
 }
